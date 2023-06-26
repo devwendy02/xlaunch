@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <link rel="manifest" href="./manifest.json" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>MultiversX Wallet</title>
+    <meta name="description" content="A highly scalable, fast and secure blockchain platform for distributed apps, enterprise use cases and the new internet economy." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png" />
+    <link rel="manifest" href="./site.webmanifest" />
+    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#f2542d" />
+    <meta name="msapplication-TileColor" content="#18191a" />
+    <meta name="theme-color" content="#18191a" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@MultiversX" />
+    <meta name="twitter:creator" content="@MultiversX" />
+    <meta name="twitter:title" content="MultiversX Wallet" />
+    <meta name="twitter:description" content="A highly scalable, fast and secure blockchain platform for distributed apps, enterprise use cases and the new internet economy." />
+    <meta name="twitter:image" content="https://wallet.multiversx.com/wallet.jpg" />
+    <meta property="og:url" content="https://wallet.multiversx.com" />
+    <meta property="og:title" content="MultiversX Wallet" />
+    <meta property="og:description" content="A highly scalable, fast and secure blockchain platform for distributed apps, enterprise use cases and the new internet economy." />
+    <meta property="og:image" content="https://wallet.multiversx.com/wallet.jpg" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-L88JQ8G8RB"></script>
+    <script>
+        function gtag() {
+            dataLayer.push(arguments)
+        }
+        window.dataLayer = window.dataLayer || [], gtag("js", new Date), gtag("config", "G-L88JQ8G8RB")
+    </script>
+    <link href="./static/css/2.6ab8c269.chunk.css" rel="stylesheet">
+    <link href="./static/css/main.2066141c.chunk.css" rel="stylesheet">
+</head>
+
+<body class="scrollbar-thin dark chrome blink android">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+      <div class="column flex-fill wrapper">
+        <main class="d-flex flex-fill align-items-center container">
+          <div class="centered-column m-auto justify-content-around gap-3 p-md-4">
+            <div class="info-card wallet-login card">
+              <div class="card-body">
+                <div class="wallet-login centered-column p-md-5">
+                  <h1 class="wallet-login-title">Connect your wallet</h1>
+                  <h3 class="wallet-login-subtitle muted mb-5">Choose one of the options below</h3>
+                  <a href="../import/keystore.html">
+                  <div class="centered flex-wrap">
+                    <div class="login-option" data-testid="walletConnectBtn">
+                      <div class="muted">Mobile</div>
+                      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAM4SURBVHgB7Zs/TFNRFMY/K0pMpFQGExFDjYss6oaT1snJmMhmJJHFRYKTLjrK4kJVSIxLm4gmDpgYuhAmmexU4mBcTCUhmhiF/gmi0fA859KSR2n73uPe+9Jy7y858ELI4Z3vnnvuuQcAdpIgmyDLkzl7xHJkKbI4mhCrBN4uQe3WJiqx7gg+18IvrSMjtolgwsrXywTsw+a+yMNMLu3HphLnYCbFCMwNnrnKW8CBwURgOFYAGI4VAIZjBYDhWAFgOFYAGI4VAIronXuFo88f4UB/H3TRQb6P3L+DvuwsVCI9XekaHnJOrX/eMhJDfE2Fb7ZDF84Ln+6focq/kutw/6d3YnVq+be0jMJkGr9m5/GXnoMQiUXRfXsEsdGb4rme76XTFyGLtAC0EiL1vSi/mEF5+g3WF943/T5abUrzMfo8CC++37on/MogLUDv3Evx0n7hlVsZf4LfC9mtrOAVjt4YwmESs/PMgG9ffz58xPLgFcggLQCnfnT4mihOQeHV2yiW0EXB10vzRmwUSihOpcT24mcZlI3EWIgeSl3eEjopTqZEBskGXkX5TFCXELxleM8HLaZeaBuKchHj4tgh2Rdw4Cvjj6l4ZqED7VNhzgTOiKBCcLHkFdcVeJXQxuJ+heC9vUorzgUuDEL9vUCzE0NlZQ+KE7ZRfdjW1p78lnM6zw6E/h5Q1Qr7xau9LTxNoTSVVl7pmxGKAF6Bu6neH/i8D4OWPgW44ZHt9b3Q2Af4v9Q0g4X4cfch1uhGqQPlAqgKvBYW4CcJ0bKdYFh3Ad4Sq7Q1VAkhLUCQAueGz/ry9Awi3VGRLUFrhCohpAXoy2YC3eG5t+d0LlHw7oaHMyc2OoKDAXxxm/z18nXIEMpEiANdy8yLVfPq7TkbeD7gZyu1xESIaTQTlGlv2R+L0egIVTUTZKTbydqp8HGa4HK7q8I3Kq3zsdfPtEyFociJcyKbcXoejDlUCJUFXmuUCQ5tNyGwKp/2r8RgOFYAGI4VAIZjBYDhWAFgOFYAGA4L8AXmssgCvIW5LPKHBDRdX9vA4lUlkm3wsqotCRfG/+tsVQQTMiFZL3g3cbI09lZG5CuBJ2qD/Q8kCVa4M6fMMgAAAABJRU5ErkJggg==" alt="xPortal App">
+                      <div class="login-option-title">xPortal App</div>
+                    </div>
+                    <div class="login-option" data-testid="ledgerLoginBtn">
+                      <div class="muted">Hardware</div>
+                      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHVSURBVHgB7ZvhcYJAFIQ3JgVQAiWkBKgglmAJ2oEdaAfQgaYDrUA6gBJMBZd7UTImmnjvUEbd983sjD/Au7cc3N6hwDGZ18yr9nIPoo1X4ZXiH5J94fdSVKxm+1qPit/ccKevMSJ+mMBw5U+NBDxhd1/U4CR/xs6JV3DyMQBv8cKb3AIOxAxAjhkAcswAkGMGaA52zkVrOp0GtTEajTq1k6YpNNCPgBdEMJlMUFWV6pymaYKOW61WyPMcGpIkwWKxQCzBK6iWLMtuamXnh/133+Sz5lx7CIIcMwDkmAEwdNONyM+76qlqPB67uq5dURRXmwq1U6BIFYRCw8wpJKxITNVG1VBi+2bPAJBjBoAcMwDkmAEgxwwAObYpip6RtYBsff+FZHrZGO0T14f8ewEXwrVWi7jEarC9csvlEtvtFhpkG70sy7PHrddraJGV5nA4RGzfgt2ybfEHxAwAOWYAyLEkiAhkztXu7koOCHmlLt/rp1lokBzQBXUOiEGSYEgbPmy5LmhzQG/vBULTmRzXpR0t9lNZkGMGgBwzAOSYAV4NeKnEgHfw8pXNM/SwbXWjSlsn5nfQ2UtrjgPo/zrbmsAwEuanij8k9SrxWCOi3hee/S72E1RJijNT+F5qAAAAAElFTkSuQmCC" alt="Ledger">
+                      <div class="login-option-title">Ledger</div>
+                    </div>
+                    <div class="login-option" data-testid="extensionLoginBtn">
+                      <div class="muted">Extension</div>
+                      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAANaSURBVHgB7Zs9TFNRGIZfCoo/ARtjDBECJC7iQNx0UhwMk3EgcfBnYDEOyiaLmjiggw786EBcMFFMNGpiYCG6gIudAAdxMbVEMPEHWyq2hab1vLe9Tf+kcM+9t72c+ySHU8hN6Pee73vPd05aoJAOMfrF8IuR3CJjWowRMVqxDt504E4JyujoT8daEPx0Bb9pKzIiRwQVVr5YJqAKqbrwQ01OViOlxBGoScgDdYMnZ1gCSSiMB4rjCgDFcQWA4rgCQHFcAaA4NZDE463H3us9qLvQpb22mkRwGcuPX+L3nSHttSxSrXBNSxMaJ0a12W6C90fwq7cPskiVAFe+HMET79VuUzJOSoDdp0/B6Uh5QP4KrIy9QVjUZyIkX5ulSATDpniAtAlmw+ApgpOQMsGDkc85v8cDXxGZ8sEO4vMLmuBr4n/KYKoA5eDntT6EHozAKI4XgH4TOHTCsB84vhP07KlHbfthGMU9C0Bx3MMQLOT7pV5t9l7pxvb2tv8+FxVbJ/sHbmkNz4dhJ5YJwJ6A+zThvPP4Ue3EWHexS/sbXXtlPNU5ZvcOkan34tljsAtLM4DB6iIwSI6l20PCtdsQeecr2Lr4vIyjG8EyD+Apcf/Du2j5NJlZdcLMYLpnB88Vb/KNac+XOuHFJTu/fCw3QV0I1va2vKMzAz8w8VSM0ZIrz8DnRcPDpseMewAd23YBHp2bRTbo9U1PYOCcN0L4yatM38/LkNUPH2EGtglAp1/sPKeZHKEfcDX/bvD0WNPcmHnNMmEHaAaWmiCJasY3WPSUyLT+dvaylh377t1Y93ZJ9xGaJ3cTs26iLDsMMTg6vr4L6HD1mPars3MFR1kGaeSabbHzfCazNotlJbAWWMgJnrXf8GwYLXOT2kw/oDlm7/n5YtmBZSXAVWZq0/l3ibmY2XHFOfRsYV3bfcnq+PsAUpEl4BSkBDDjVrbcSAnA5qQSkLmGlxJgqW/Q9N58s7CRis0a7wr5QclbMEgyFhMHm7eoFu5Nt6/aUQu7YPn9eTGOHz03kYzGYBT3c4JQHFcAKI4rABTHFQCK4woAxaEAX6AuMxTgNdRlhj86UPnf8bNqtOpKDDjgzZo9BpCF8l+d1UVQIRMGigWfTasYj7C1MsKfDrwjP9h/NUM2wxfTBqQAAAAASUVORK5CYII=" alt="Defi Wallet">
+                      <div class="login-option-title">Defi Wallet</div>
+                    </div>
+                
+                  </div>
+                </a>
+                  <div class="mt-5 mb-3 muted">Other options</div>
+               
+                  <div class="centered flex-wrap w-100">
+                    <a class="centered flex login-option-link" data-testid="keystoreBtn" href="../import/keystore.html">
+                      
+                      <span class="ms-3">Connect with Keystore</span>
+                    </a>
+                    <a class="centered flex login-option-link" data-testid="pemBtn" href="../import/pem.html">
+                      
+                      <span class="ms-3">Connect with PEM</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="centered w-100 flex-wrap gap-3">
+              <div class="info-card flex py-4 card">
+                <div class="card-body">
+                  <div class="centered-column gap-3">
+                    <div class="muted">Don't have a wallet?</div>
+                    <a class="centered flex login-option-link" href="./create">Create new one</a>
+                  </div>
+                </div>
+              </div>
+              <div class="info-card flex py-4 card">
+                <div class="card-body">
+                  <div class="centered-column gap-3">
+                    <div class="muted">Got a seed phrase?</div>
+                    <a class="centered flex login-option-link" href="./recover">Restore your wallet</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+        <footer class="footer d-flex flex-column align-items-center justify-content-center text-muted pt-2">
+          <div class="footer-inner">
+            <a rel="noopener noreferrer nofollow" target="_blank" class="d-flex align-items-center text-neutral-400" href="https://multiversx.com/">Made with <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="heart" class="svg-inline--fa fa-heart text-danger mx-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <path fill="currentColor" d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"></path>
+              </svg>by the MultiversX team </a>
+          </div>
+          <small class="text-muted version mt-1">Build 1.0.5-7cf397a4</small>
+        </footer>
+      </div>
+    </div>
+    <script>
+      ! function(e) {
+        function t(t) {
+          for (var n, l, a = t[0], p = t[1], f = t[2], c = 0, s = []; c < a.length; c++) l = a[c], Object.prototype.hasOwnProperty.call(o, l) && o[l] && s.push(o[l][0]), o[l] = 0;
+          for (n in p) Object.prototype.hasOwnProperty.call(p, n) && (e[n] = p[n]);
+          for (i && i(t); s.length;) s.shift()();
+          return u.push.apply(u, f || []), r()
+        }
+  
+        function r() {
+          for (var e, t = 0; t < u.length; t++) {
+            for (var r = u[t], n = !0, a = 1; a < r.length; a++) {
+              var p = r[a];
+              0 !== o[p] && (n = !1)
+            }
+            n && (u.splice(t--, 1), e = l(l.s = r[0]))
+          }
+          return e
+        }
+        var n = {},
+          o = {
+            1: 0
+          },
+          u = [];
+  
+        function l(t) {
+          if (n[t]) return n[t].exports;
+          var r = n[t] = {
+            i: t,
+            l: !1,
+            exports: {}
+          };
+          return e[t].call(r.exports, r, r.exports, l), r.l = !0, r.exports
+        }
+        l.m = e, l.c = n, l.d = function(e, t, r) {
+          l.o(e, t) || Object.defineProperty(e, t, {
+            enumerable: !0,
+            get: r
+          })
+        }, l.r = function(e) {
+          "undefined" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol.toStringTag, {
+            value: "Module"
+          }), Object.defineProperty(e, "__esModule", {
+            value: !0
+          })
+        }, l.t = function(e, t) {
+          if (1 & t && (e = l(e)), 8 & t) return e;
+          if (4 & t && "object" == typeof e && e && e.__esModule) return e;
+          var r = Object.create(null);
+          if (l.r(r), Object.defineProperty(r, "default", {
+              enumerable: !0,
+              value: e
+            }), 2 & t && "string" != typeof e)
+            for (var n in e) l.d(r, n, function(t) {
+              return e[t]
+            }.bind(null, n));
+          return r
+        }, l.n = function(e) {
+          var t = e && e.__esModule ? function() {
+            return e.default
+          } : function() {
+            return e
+          };
+          return l.d(t, "a", t), t
+        }, l.o = function(e, t) {
+          return Object.prototype.hasOwnProperty.call(e, t)
+        }, l.p = "./";
+        var a = this["webpackJsonpmx-wallet-dapp"] = this["webpackJsonpmx-wallet-dapp"] || [],
+          p = a.push.bind(a);
+        a.push = t, a = a.slice();
+        for (var f = 0; f < a.length; f++) t(a[f]);
+        var i = p;
+        r()
+      }([])
+    </script>
+  </body>
+</html>

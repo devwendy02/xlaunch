@@ -1,0 +1,40 @@
+var _defs, _g;
+var _excluded = ["title", "titleId"];
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+import * as React from "react";
+function SvgMobileWallet(_ref, svgRef) {
+  var title = _ref.title,
+    titleId = _ref.titleId,
+    props = _objectWithoutProperties(_ref, _excluded);
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 17.5,
+    height: 28,
+    viewBox: "0 0 17.5 28",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("style", null, "\n      .cls-mobile-wallet-1 {\n        fill: #fff;\n      }\n\n      .cls-mobile-wallet-2 {\n        fill: #242526;\n      }\n    "))), _g || (_g = /*#__PURE__*/React.createElement("g", {
+    transform: "translate(11007 -18884.001)"
+  }, /*#__PURE__*/React.createElement("path", {
+    className: "cls-mobile-wallet-1",
+    d: "M14.875-21H2.625A2.626,2.626,0,0,0,0-18.375V4.375A2.626,2.626,0,0,0,2.625,7h12.25A2.626,2.626,0,0,0,17.5,4.375v-22.75A2.626,2.626,0,0,0,14.875-21Z",
+    transform: "translate(-11007 18905)"
+  }), /*#__PURE__*/React.createElement("g", {
+    transform: "translate(-11003 18892.168) scale(0.285)"
+  }, /*#__PURE__*/React.createElement("path", {
+    d: "M17.8956 12.0018L32.0458 4.52327L29.6668 0L16.7098 5.18441C16.3761 5.31809 16.0062 5.31809 15.6726 5.18441L2.71192 0L0.333008 4.52327L14.4832 12.0018L0.333008 19.4767L2.71192 24L15.669 18.8156C16.0027 18.6819 16.3725 18.6819 16.7061 18.8156L29.6632 24L32.0421 19.4767L17.8919 11.9982L17.8956 12.0018Z"
+  })), /*#__PURE__*/React.createElement("circle", {
+    className: "cls-mobile-wallet-2",
+    cx: 1.5,
+    cy: 1.5,
+    r: 1.5,
+    transform: "translate(-10999.75 18906.498)"
+  }))));
+}
+var ForwardRef = /*#__PURE__*/React.forwardRef(SvgMobileWallet);
+export default __webpack_public_path__ + "static/media/mobile-wallet.79eb9073.svg";
+export { ForwardRef as ReactComponent };
